@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
+  "types": "lib/types",
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "publish:patch": "npm version patch && npm publish",
