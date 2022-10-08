@@ -18,12 +18,12 @@ jobs:
     steps:
       # 检查并切换到master分支
       - name: 检查master分支
-      	# 使用actions/checkout插件
+      # 使用actions/checkout插件
         uses: actions/checkout@master
 
       # 安装node
       - name: 设置Node.js
-      	# 使用actions/setup-node插件
+      # 使用actions/setup-node插件
         uses: actions/setup-node@master
         with:
       # node版本
@@ -42,7 +42,7 @@ jobs:
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
           npm publish
         env:
-        	# 配置 npm access token 环境变量
+        # 配置 npm access token 环境变量
           NPM_TOKEN: ${{secrets.NPM_ACCESS_TOKEN}}
 
       # 创建GitHub Release
