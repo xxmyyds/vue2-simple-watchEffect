@@ -1,3 +1,16 @@
+## [2.0.9](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v2.0.8...v2.0.9) (2022-10-11)
+
+
+### Features
+
+* add bumpp ([23c1ab2](https://github.com/xxmyyds/vue2-simple-watchEffect/commit/23c1ab2e30c7679afc2b9036d0f675a346f214cd))
+
+
+
+## [2.0.8](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v2.0.7...v2.0.8) (2022-10-11)
+
+
+
 ## [2.0.7](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v2.0.6...v2.0.7) (2022-10-11)
 
 
@@ -21,21 +34,9 @@
 ## [2.0.2](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v2.0.1...v2.0.2) (2022-10-11)
 
 
-
-# [2.0.0](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v1.0.7...v2.0.0) (2022-10-11)
-
-
 ### Features
 
 * **test:** test ([f067959](https://github.com/xxmyyds/vue2-simple-watchEffect/commit/f067959f21c5c75d63f5b13216f740fa100b31b0))
-
-
-
-## [1.0.7](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v1.0.6...v1.0.7) (2022-10-08)
-
-
-
-## [1.0.6](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v1.0.5...v1.0.6) (2022-10-08)
 
 
 
