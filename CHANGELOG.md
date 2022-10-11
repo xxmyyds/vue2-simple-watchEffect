@@ -1,3 +1,15 @@
+## [2.0.7](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v2.0.6...v2.0.7) (2022-10-11)
+
+
+
+## [2.0.6](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v2.0.5...v2.0.6) (2022-10-11)
+
+
+
+## [2.0.5](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v2.0.4...v2.0.5) (2022-10-11)
+
+
+
 ## [2.0.4](https://github.com/xxmyyds/vue2-simple-watchEffect/compare/v2.0.3...v2.0.4) (2022-10-11)
 
 
