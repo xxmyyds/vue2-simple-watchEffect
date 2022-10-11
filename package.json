@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "rollup -c rollup.config.js",
-    "commit": "cz"
+    "commit": "cz",
+    "release-f": "standard-changelog"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
     "rollup": "^2.79.1",
+    "standard-changelog": "^2.0.27",
     "tslib": "^2.4.0",
     "typescript": "^4.8.4"
   },
