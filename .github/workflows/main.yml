@@ -1,13 +1,14 @@
-name: Push Release
+name: Release
 
 # 当代码合并到master分支的时候，执行下列脚本
 on:
   push:
-    branches: [master]
+    tags:
+      - v*
 
 jobs:
   # publish-npm任务
-  publish-npm:
+  release-when-tag-change:
     # 在ubuntu最新版本的虚拟机执行
     runs-on: ubuntu-latest
     # 设置变量
