@@ -1,6 +1,6 @@
 {
   "name": "vue2-simple-watch-effect",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -12,7 +12,7 @@
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "commit": "cz",
-    "lo": "standard-changelog -f"
+    "log": "standard-changelog -f"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +24,7 @@
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@rollup/plugin-typescript": "^8.5.0",
+    "bumpp": "^8.2.1",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
     "rollup": "^2.79.1",
