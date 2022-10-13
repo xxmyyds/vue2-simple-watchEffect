@@ -1,4 +1,4 @@
-import { WatchEffect } from './reactive'
+import type { WatchEffect } from './reactive'
 import { isObject } from './utils'
 
 let activeEffect: ReactiveEffect | undefined
@@ -21,9 +21,9 @@ class ReactiveEffect<T = any> {
   }
 
   run() {
-    if (!this.active) {
+    if (!this.active)
       return this._fn()
-    }
+
     shouldTrack = true
     activeEffect = this
     const result = this._fn()
@@ -77,14 +77,12 @@ export function trigger(target: object, key: string) {
   if (isTracking()) return
 
   const depsMap = targetMap.get(target)
-  if (!depsMap) {
+  if (!depsMap)
     return
-  }
 
   const dep = depsMap.get(key)
-  if (isObject(dep)) {
+  if (isObject(dep))
     triggerEffects(dep)
-  }
 }
 
 export function effect<T = any>(fn: WatchEffect<T>): ReactiveEffectRunner {
@@ -109,7 +107,6 @@ function trackEffects(dep: Dep) {
 }
 
 function triggerEffects(dep: Dep) {
-  for (const effect of dep) {
+  for (const effect of dep)
     effect.run()
-  }
 }

@@ -17,9 +17,9 @@ function createGetter() {
 
     track(target, key)
 
-    if (isObject(res)) {
+    if (isObject(res))
       return createActiveObject(res, handler)
-    }
+
     return res
   }
 }
@@ -38,7 +38,7 @@ export type WatchEffect<T> = () => T
 
 export function watchEffect<T = any>(
   fn: WatchEffect<T>,
-  vm: any
+  vm: any,
 ): WatchStopHandler {
   currentInstance = vm
 

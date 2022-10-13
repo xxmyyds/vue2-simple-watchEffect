@@ -1,0 +1,6 @@
+{
+  "extends": "@xxm7/eslint-config-ts",
+  "rules": {
+    "@typescript-eslint/no-this-alias": "off"
+  }
+}
