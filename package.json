@@ -12,7 +12,7 @@
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "commit": "git cz",
-    "releas": "bumpp package.json"
+    "release": "bumpp package.json"
   },
   "keywords": [],
   "author": "",
@@ -38,5 +38,11 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "src/**/*.{ts}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
