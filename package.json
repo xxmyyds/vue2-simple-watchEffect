@@ -12,7 +12,7 @@
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "commit": "git cz",
-    "release": "bumpp package.json"
+    "releas": "bumpp package.json"
   },
   "keywords": [],
   "author": "",
